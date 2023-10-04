@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(151, 239, 63);
+}
+#admin-box{
+    width: 50%;
+    border: 2px solid rgb(220, 45, 179);
+    margin: 10% auto;
+    text-align: center;
+    padding: 17px;
+
+}
+h1{
+    text-align: center;
+    
+}
+label,input{
+    display:block;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+input[type="submit"]:hover {
+background-color: blueviolet;
+color:#fff
+}
+
+input:focus{
+    background-color: aqua;
+    color: red;
+}
+input::placeholder{
+    color: rgb(46, 8, 95);
+}
+p {
+font-size: 25px;
+color: fuchsia;
+}
+p a {
+text-decoration: none;
+
+}
